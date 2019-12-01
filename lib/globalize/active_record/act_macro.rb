@@ -41,6 +41,7 @@ module Globalize
         end
 
         if ::ActiveRecord::VERSION::STRING > "5.0" && connected?
+        if ::ActiveRecord::VERSION::STRING > "5.0" && connected? && table_exists? && translation_class.table_exists?
           self.ignored_columns += translated_attribute_names.map(&:to_s)
           reset_column_information
         end
