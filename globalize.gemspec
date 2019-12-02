@@ -1,7 +1,7 @@
 require File.expand_path('../lib/globalize/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name         = 'globalize'
+  s.name         = 'globalize.danibachar'
   s.version      = Globalize::Version
   s.authors      = ['Sven Fuchs', 'Joshua Harvey', 'Clemens Kofler', 'John-Paul Bader', 'Tomasz Stachewicz', 'Philip Arndt', 'Chris Salzberg']
   s.email        = 'nobody@globalize-rails.org'
